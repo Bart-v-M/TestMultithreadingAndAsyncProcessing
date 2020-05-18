@@ -1,0 +1,19 @@
+﻿<Window x:Class="TestMultithreadingAndAsyncProcessing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestMultithreadingAndAsyncProcessing"
+        mc:Ignorable="d"
+        Title="Test Multithreading and Asynchronous Processing" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Button1" Content="Run code with 'AsParallel'" HorizontalAlignment="Left" Margin="25,100,0,0" VerticalAlignment="Top" Width="250" Click="Button1_Click"/>
+        <Button x:Name="Button2" Content="Run code with 'ForceParallelism'" HorizontalAlignment="Left" Margin="25,150,0,0" VerticalAlignment="Top" Width="250" Click="Button2_Click"/>
+        <Button x:Name="Button3" Content="Run code with 'AsSequential'" HorizontalAlignment="Left" Margin="25,200,0,0" VerticalAlignment="Top" Width="250" Click="Button3_Click"/>
+        <Button x:Name="CreateListButton" Content="Create list from Excel file" HorizontalAlignment="Left" Margin="25,50,0,0" VerticalAlignment="Top" Width="250" Click="CreateListButton_Click"/>
+        <Label x:Name="Label1" Content="Label 1" HorizontalAlignment="Left"  Margin="350,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.623,0.668" Width="400" Padding="1"/>
+        <Label x:Name="Label2" Content="Label 2" HorizontalAlignment="Left"  Margin="350,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.623,0.668" Width="400" Padding="1"/>
+        <Label x:Name="Label3" Content="Label 3" HorizontalAlignment="Left" Margin="350,150,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.623,0.668" Width="400" Padding="1"/>
+        <Label x:Name="Label4" Content="Label 4" HorizontalAlignment="Left" Margin="350,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.623,0.668" Width="400" Padding="1"/>
+    </Grid>
+</Window>
